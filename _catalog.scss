@@ -37,3 +37,49 @@
         color: #F16D7F;
     }
 }
+.filter {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 60px;
+
+    &__filtering {
+        flex: 1;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #000000;
+    }
+    &__filtering::after {
+        margin-left: 10px;
+        content:  url(/img/filtering.svg);
+    }
+
+
+    &__sort {
+        display: flex;
+        flex: 2;
+        flex-direction: row;
+    }
+
+    &__item {
+        margin-left: 28px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #6F6E6E;
+    }
+
+    &__item::after {
+        margin-left: 10px;
+        content:  url(/img/arrow_down.png);
+    }
+
+}
+.center {
+}
