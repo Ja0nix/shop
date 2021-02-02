@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 $dark-color: #000000;
@@ -10,6 +11,7 @@ $accent-color: #F16D7F;
 $light-accent: #F3EDED;
 $light-grey: #F8F8F8;
 $dark-bg: #222222;
+$pagination-color: #C4C4C4;
 
 .container {
     max-width: 1140px;
