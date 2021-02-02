@@ -776,4 +776,105 @@
   vertical-align: sub;
   content: url(/img/arrow_right.png);
 }
+
+/*product style import*/
+.slideshow {
+  width: 100%;
+  min-height: 777px;
+}
+
+.product-description {
+  border: 1px solid #EAEAEA;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__category {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  margin-top: 65px;
+}
+
+.product__name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-top: 27px;
+}
+
+.product__text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5E5E5E;
+  margin-top: 50px;
+}
+
+.product__price {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  margin-top: 32px;
+}
+
+.product__choice {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 130px;
+}
+
+.product__add-to-cart {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #F26376;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 57px;
+  padding-left: 42px;
+  border: 1px solid #F16D7F;
+  margin-bottom: 65px;
+  margin-top: 50px;
+}
+
+.product__cart-button {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
 /*# sourceMappingURL=style.css.map */
