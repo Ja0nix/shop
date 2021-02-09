@@ -1,5 +1,6 @@
 .checkout {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 96px auto 128px;
 }
@@ -19,7 +20,12 @@
             width: 652px;
 		}
 
-		&__img {
+            &__img {
+                  transition: all 0.5s;
+            }
+
+		&__img:hover {
+                  transform: scale(1.05);
 		}
 
 		&__details {
@@ -89,7 +95,12 @@
             position: relative;
             top: 28px;
             right: 22px;
+            transition: all 0.5s;
 		}
+
+            &__delete:hover {
+                  transform: rotate(1turn);
+            }
 
 		&__buttons {
                   justify-content: space-between;
@@ -110,4 +121,24 @@
                   border: 1px solid #A4A4A4;
                   padding: 17px 40px;
             }
+}
+
+.checkout-details {
+      display: flex;
+      flex-direction: column;
+
+      &__address {
+      }
+
+      &__address p {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: $dark-bg;
+
+            margin-bottom: 20px;
+      }
 }
