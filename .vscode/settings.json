@@ -1,3 +1,4 @@
 {
-    "compile-hero.sass-output-directory": "./"
+    "compile-hero.sass-output-directory": "./",
+    "ecsstractor_port.bem_nesting": true
 }
