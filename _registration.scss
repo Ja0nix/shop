@@ -5,9 +5,74 @@
     margin-bottom: 96px;
 
     &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__form h2 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #222222;
+        margin-bottom: 20px;
+    }
+
+    &__form input[type='text'], &__form input[type='email'] {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+
+
+        color: #B1B1B1;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 17px;
+        margin-bottom: 20px;
+    }
+
+    &__form-radio {
+        margin-bottom: 35px;
+    }
+
+    &__form-radio input[type='radio'] {
+        margin-right: 10px;
+    }
+
+    &__form-radio label {
+        margin-right: 20px;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+
+        color: #000000;
+    }
+
+    &__form p {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+
+        color: #B1B1B1;
+        margin-bottom: 40px;
+    }
+
+    &__form a {
+        padding: 15px 30px;
+        background-color: #F16D7F;
+        border: none;
+        max-width: 130px;
+        color: white;
+    }
+
+    &__form a::after {
+        margin-left: 20px;
+        content:  url(img/registration/Group.png);
     }
 
     &__perks {
+        margin-left: 128px;
     }
 
     &__perks h2 {
@@ -17,6 +82,7 @@
         /* identical to box height */
 
         color: #000000;
+        margin-bottom: 20px;
     }
 
     &__perks p {
@@ -25,6 +91,7 @@
         line-height: 29px;
 
         color: #000000;
+        margin-bottom: 20px;
     }
 
     &__perks li {
@@ -35,6 +102,7 @@
 
 
         color: #000000;
+        margin-bottom: 16px;
     }
 
     &__perks li::before {
