@@ -172,7 +172,7 @@
     }
     &__filtering::after {
         margin-left: 10px;
-        content:  url(/img/filtering.svg);
+        content:  url(img/filtering.svg);
     }
 
 
@@ -195,7 +195,7 @@
 
     &__item::after {
         margin-left: 10px;
-        content:  url(/img/arrow_down.png);
+        content:  url(img/arrow_down.png);
     }
 
 }
@@ -242,12 +242,12 @@
         &_previous::after {
             margin-right: 15px;
             vertical-align: sub;
-            content:  url(/img/arrow_left.png);
+            content:  url(img/arrow_left.png);
         }
         &_next::before {
             margin-left: 15px;
             vertical-align: sub;
-            content:  url(/img/arrow_right.png);
+            content:  url(img/arrow_right.png);
         }
     }
 }

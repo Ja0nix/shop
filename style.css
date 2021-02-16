@@ -346,7 +346,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/img/subscribe/bg.png);
+  background-image: url(img/subscribe/bg.png);
   min-height: 448px;
 }
 
@@ -393,7 +393,7 @@
 
 .subscribe__form {
   margin-top: 32px;
-  background-image: url(/img/subscribe/form.png);
+  background-image: url(img/subscribe/form.png);
   width: 356px;
   height: 49px;
   display: -webkit-box;
@@ -690,7 +690,7 @@
 
 .filter__filtering::after {
   margin-left: 10px;
-  content: url(/img/filtering.svg);
+  content: url(img/filtering.svg);
 }
 
 .filter__sort {
@@ -719,7 +719,7 @@
 
 .filter__item::after {
   margin-left: 10px;
-  content: url(/img/arrow_down.png);
+  content: url(img/arrow_down.png);
 }
 
 .pagination {
@@ -772,13 +772,13 @@
 .pagination__page_previous::after {
   margin-right: 15px;
   vertical-align: sub;
-  content: url(/img/arrow_left.png);
+  content: url(img/arrow_left.png);
 }
 
 .pagination__page_next::before {
   margin-left: 15px;
   vertical-align: sub;
-  content: url(/img/arrow_right.png);
+  content: url(img/arrow_right.png);
 }
 
 /*product style import*/
@@ -876,7 +876,7 @@
 
 .product__choice-item::after {
   margin-left: 10px;
-  content: url(/img/arrow_down.png);
+  content: url(img/arrow_down.png);
 }
 
 .product__add-to-cart {
