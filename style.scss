@@ -33,8 +33,12 @@
     margin-left: 41px;
 }
 
-.header__right img:not(:last-child) {
-    margin-right: 33px;
+.header__right img {
+    padding-right: 33px;
+}
+
+.header__right .header__cart {
+    padding-right: 0px;
 }
 
 .promo {
