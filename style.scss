@@ -14,11 +14,19 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        max-width: 736px;
+     }
 }
 
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
+    @media screen and (max-width: 768px) {
+        padding-left: calc(50% - 370px);
+        padding-right: calc(50% - 370px);
+     }
 }
 
 .header {
@@ -42,7 +50,6 @@
 }
 
 .promo {
-    background: #F1E4E6;
     display: flex;
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
@@ -58,6 +65,7 @@
 }
 
 .promo__text {
+    background: #F1E4E6;
     width: 50%;
 }
 
@@ -65,6 +73,9 @@
     margin-top: 40%;
     border-left: 12px solid $accent-color;
     padding-left: 16px;
+    @media screen and (max-width: 768px) {
+        margin-left: 40px;
+    }
 }
 
 .promo__heading {
@@ -84,6 +95,10 @@
     line-height: 38px;
 
     color: #222222;
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 29px;
+    }
 }
 
 .select {
@@ -93,6 +108,10 @@
 .sale {
     padding-top: 64px;
     padding-bottom: 96px;
+    @media screen and (max-width: 768px) {
+        padding-top: 17px;
+        padding-bottom: 96px;
+    }
 }
 
 .sale__top {
@@ -150,6 +169,9 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 95px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 60px;
+    }
 
     &__text {
         display: flex;
@@ -195,7 +217,7 @@
 
     &__items {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
@@ -204,6 +226,9 @@
         max-width: 360px;
         margin-bottom: 30px;
         position: relative;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 16px;
+        }
     }
 
     &__description {
@@ -266,8 +291,14 @@
     background-color: $dark-bg;
     color: $light-accent;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 
     &__item {
         display: flex;
@@ -278,6 +309,10 @@
 
         margin-top: 105px;
         margin-bottom: 105px;
+        @media screen and (max-width: 768px) {
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
     }
 
     &__icon {
@@ -310,7 +345,14 @@
     align-items: center;
 
     background-image: url(img/subscribe/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 448px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding-top: 64px;
+        padding-bottom: 140px;
+    }
 
     &__testimonials {
         display: flex;
