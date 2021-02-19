@@ -1,9 +1,12 @@
 .slideshow {
     width: 100%;
     min-height: 777px;
+    background-image: url(img/product/product.png);
+        background-position: center;
 
     &__img {
-    }
+        display: none;
+     }
 }
 .product-description {
     border: 1px solid $border-grey-color;
@@ -40,6 +43,9 @@
             width: 642px;
             border-bottom: 1px solid $border-grey-color;
             margin: 64px auto;
+            @media screen and (max-width: 700px) {
+                width: 100%;
+            }
         }
 
 		&__name {
