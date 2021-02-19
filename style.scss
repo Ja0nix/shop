@@ -24,8 +24,8 @@
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
     @media screen and (max-width: 768px) {
-        padding-left: calc(50% - 370px);
-        padding-right: calc(50% - 370px);
+        padding-left: 16px;
+        padding-right: 16px;
      }
 }
 
@@ -49,6 +49,12 @@
     padding-right: 0px;
 }
 
+.header__right a {
+    @media screen and (max-width: 768px) {
+        display: none;
+     }
+}
+
 .promo {
     display: flex;
     padding-left: calc(50% - 800px);
@@ -58,6 +64,9 @@
 .promo__img {
     width: 50%;
     display: flex;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 }
 
 .promo__photo {
@@ -67,14 +76,21 @@
 .promo__text {
     background: #F1E4E6;
     width: 50%;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
 }
 
 .promo__content {
     margin-top: 40%;
     border-left: 12px solid $accent-color;
     padding-left: 16px;
+    margin-left: 40px;
     @media screen and (max-width: 768px) {
         margin-left: 40px;
+    }
+    @media screen and (max-width: 700px) {
+        margin: 148px 56px;
     }
 }
 
@@ -117,14 +133,27 @@
 .sale__top {
     display: flex;
     padding-bottom: 30px;
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        padding-bottom: 16px;
+    }
 }
 
 .sale__img {
     width: 100%;
 }
 
+.sale__bottom .sale__img {
+    @media screen and (max-width: 700px) {
+       height: 100px;
+    }
+}
+
 .sale__item {
     position: relative;
+    @media screen and (max-width: 700px) {
+        margin: 32px 16px 16px 16px;
+    }
 }
 
 .sale__text {
@@ -478,6 +507,12 @@
 
     padding-top: 25px;
     padding-bottom: 25px;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
     &__copy {
         padding-top: 10px;
         font-family: Lato;
