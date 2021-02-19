@@ -6,6 +6,10 @@
     flex-wrap: wrap;
 
     min-height: 148px;
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 
     &__category {
         font-family: Lato;
@@ -89,6 +93,9 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media screen and (max-width: 1079px) {
+            justify-content: space-evenly;
+        }
     }
 
     &__item {
@@ -159,7 +166,7 @@
     display: flex;
     padding-bottom: 50px;
     padding-top: 60px;
-
+    
     &__filtering {
         flex: 1;
         font-family: Lato;
@@ -169,6 +176,9 @@
         line-height: 17px;
         /* identical to box height */
         color: #000000;
+        @media screen and (max-width: 700px) {
+            flex: inherit;
+        }
     }
     &__filtering::after {
         margin-left: 10px;
